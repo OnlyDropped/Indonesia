@@ -1,0 +1,34 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.container {
+  max-width: 1774px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.text {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #ffc178;
+  padding-left: 104px;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 72px;
+    height: 2px;
+    top: 12px;
+    background: #ffc178;
+  }
+}
+section {
+  max-width: 1460px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+}
