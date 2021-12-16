@@ -32,6 +32,13 @@
     line-height: 25px;
     color: #fff;
   }
+  &__btn{
+    display: none;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
   &__form {
     position: absolute;
     top: 50%;
